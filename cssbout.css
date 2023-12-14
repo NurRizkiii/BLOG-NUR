@@ -1,0 +1,59 @@
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background:#F0FFF0 ; /* Ganti 'background.jpg' dengan nama file gambar Anda */
+            background-size: cover;
+            background-position: center;
+            color: #000000;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+        #content {
+            max-width: 800px;
+            margin: 50px auto;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 36px;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.5;
+        }
+
+        #register-link {
+            color: #9ACD32;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        #comment-section {
+            margin-top: 30px;
+        }
+
+        #back-to-home {
+            display: block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #808000;
+            color: #EEE8AA;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        #back-to-home:hover {
+            background-color: #808000;
+        }
